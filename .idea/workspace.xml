@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f459a1d-5984-4b87-8f77-c57d15339dae" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/py_Calculator/Main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Programering_02.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Programering_02.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculator/Calculator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Calculator/Calculator.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculator/src/Calculator.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/Calculator/src/Calculator.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculator/src/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/Calculator/src/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_Calculator/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Calculator/py_Calculator/Main.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
