@@ -14,7 +14,19 @@
           prefHeight="400.0" prefWidth="600.0">
 
     <GridPane GridPane.margin="10px">
-        <Button fx:id=""></Button>
+        <Button fx:id="btn_1" GridPane.columnIndex="0" GridPane.rowIndex="0">1</Button>
+        <Button fx:id="btn_2" GridPane.columnIndex="1" GridPane.rowIndex="0">2</Button>
+        <Button fx:id="btn_3" GridPane.columnIndex="2" GridPane.rowIndex="0">3</Button>
+        <Button fx:id="btn_4" GridPane.columnIndex="0" GridPane.rowIndex="1">4</Button>
+        <Button fx:id="btn_5" GridPane.columnIndex="1" GridPane.rowIndex="1">5</Button>
+        <Button fx:id="btn_6" GridPane.columnIndex="2" GridPane.rowIndex="1">6</Button>
+        <Button fx:id="btn_7" GridPane.columnIndex="0" GridPane.rowIndex="2">7</Button>
+        <Button fx:id="btn_8" GridPane.columnIndex="1" GridPane.rowIndex="2">8</Button>
+        <Button fx:id="btn_9" GridPane.columnIndex="2" GridPane.rowIndex="2">9</Button>
+        <Button fx:id="btn_C" GridPane.columnIndex="0" GridPane.rowIndex="3">C</Button>
+        <Button fx:id="btn_0" GridPane.columnIndex="1" GridPane.rowIndex="3">0</Button>
+        <Button fx:id="btn_equals" GridPane.columnIndex="2" GridPane.rowIndex="3">=</Button>
+
     </GridPane>
 
 </GridPane>
