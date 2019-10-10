@@ -1,0 +1,36 @@
+Uppgiften går ut på att skapa en miniräknare som kan hantera minst ett räknesätt.
+
+Kriterier för E-nivå:
+* Visa ett fönster med ett textfält för input och ett för output.
+* Knappar för varje tal mellan 0-9 samt 'calc' / '='.
+* Knapp för minst ett räknesätt.
+* Input-fältet ska visa hela uttrycket, alltså till exempel "1+1"
+* Output-fältet ska visa resultatet efter att man tryckt calc/=.
+
+För C eller högre:
+* Hantera alla de 4 vanliga räknesätten (+,-,/,*).
+* Hantera flyttal.
+* Skapa och använda minst en Abstrakt klass eller ett Interface.
+* Inte tillåta att användaren skriver in icke-numeriska tecken i input.
+
+För A:
+
+* Att ha en tydlig design som gör det enkelt att utöka funktionalitet.
+* Använda klasser och metoder för att isolera funktionalitet.
+* Fungerande knappar för roten ur och %.
+
+
+
+
+
+
+
+
+Man får välja att arbeta ensam eller i par.
+Om man väljer att arbeta i par så ska man meddela det till mig och man ska arbeta i samma git-repo så att det blir tydligt vem som gjort vad.
+
+DET FÖRSTA NI GÖR!!!!!
+Skapa ett repo för uppgiften och lägg till länken i denna uppgiften INNAN ni börjar arbeta.
+
+Lycka till!
+//N

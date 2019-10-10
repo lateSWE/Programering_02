@@ -8,37 +8,31 @@ import javafx.stage.Window;
 
 public class Controller {
     @FXML
-    private TextField nameField;
+    private Button btn_1;
 
     @FXML
-    private TextField emailField;
+    private Button btn_2;
 
     @FXML
-    private PasswordField passwordField;
+    private Button btn_3;
 
     @FXML
-    private Button submitButton;
+    private Button btn_4;
 
     @FXML
-    protected void handleSubmitButtonAction(ActionEvent event) {
-        Window owner = submitButton.getScene().getWindow();
-        if(nameField.getText().isEmpty()) {
-            AlertHelper.showAlert(Alert.AlertType.ERROR, owner, "Form Error!",
-                    "Please enter your name");
-            return;
-        }
-        if(emailField.getText().isEmpty()) {
-            AlertHelper.showAlert(Alert.AlertType.ERROR, owner, "Form Error!",
-                    "Please enter your email id");
-            return;
-        }
-        if(passwordField.getText().isEmpty()) {
-            AlertHelper.showAlert(Alert.AlertType.ERROR, owner, "Form Error!",
-                    "Please enter a password");
-            return;
-        }
+    private Button btn_5;
 
-        AlertHelper.showAlert(Alert.AlertType.CONFIRMATION, owner, "Registration Successful!",
-                "Welcome " + nameField.getText());
-    }
+    @FXML
+    private Button btn_6;
+
+    @FXML
+    private Button btn_7;
+
+    @FXML
+    private Button btn_8;
+
+    @FXML
+    private Button btn_9;
+
+
 }
