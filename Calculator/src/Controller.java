@@ -9,30 +9,32 @@ import javafx.stage.Window;
 public class Controller {
     @FXML
     private Button btn_1;
-
     @FXML
     private Button btn_2;
-
     @FXML
     private Button btn_3;
 
     @FXML
     private Button btn_4;
-
     @FXML
     private Button btn_5;
-
     @FXML
     private Button btn_6;
 
     @FXML
     private Button btn_7;
-
     @FXML
     private Button btn_8;
-
     @FXML
     private Button btn_9;
+
+    @FXML
+    private Button btn_C;
+    @FXML
+    private Button btn_0;
+    @FXML
+    private Button btn_equals;
+
 
 
 }

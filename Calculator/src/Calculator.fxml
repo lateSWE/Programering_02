@@ -8,12 +8,24 @@
 
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.text.Text?>
-<GridPane xmlns="http://javafx.com/javafx"
+<VBox xmlns="http://javafx.com/javafx"
           xmlns:fx="http://javafx.com/fxml"
           fx:controller="Controller"
           prefHeight="400.0" prefWidth="600.0">
 
-    <GridPane GridPane.margin="10px">
+    <TextField fx:id="text_in">
+        test
+    </TextField>
+
+    <TextField fx:id="text_out">
+        iuadsfoihoiaudfadf
+    </TextField>
+
+
+    <GridPane>
+        <GridPane.margin>
+            <Insets topRightBottomLeft="10"/>
+        </GridPane.margin>
         <Button fx:id="btn_1" GridPane.columnIndex="0" GridPane.rowIndex="0">1</Button>
         <Button fx:id="btn_2" GridPane.columnIndex="1" GridPane.rowIndex="0">2</Button>
         <Button fx:id="btn_3" GridPane.columnIndex="2" GridPane.rowIndex="0">3</Button>
@@ -31,4 +43,4 @@
         <Button fx:id="btn_equals" GridPane.columnIndex="2" GridPane.rowIndex="3">=</Button>
     </GridPane>
 
-</GridPane>
+</VBox>
