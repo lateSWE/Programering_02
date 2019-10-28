@@ -8,39 +8,56 @@
 
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.text.Text?>
+
 <VBox xmlns="http://javafx.com/javafx"
           xmlns:fx="http://javafx.com/fxml"
           fx:controller="Controller"
-          prefHeight="400.0" prefWidth="600.0">
-
-    <TextField fx:id="text_in">
-        test
-    </TextField>
-
-    <TextField fx:id="text_out">
-        iuadsfoihoiaudfadf
-    </TextField>
+          prefHeight="400.0" prefWidth="600.0"
+      stylesheets="Style.css"
+>
 
 
-    <GridPane>
+
+
+    <!--<HBox>>-->
+        <TextField fx:id="text_in">
+            test
+        </TextField>
+
+        <TextField fx:id="text_out">
+
+        </TextField>
+    <!--</HBox>-->
+
+    <GridPane styleClass="Buttons.css">
         <GridPane.margin>
-            <Insets topRightBottomLeft="10"/>
+            <Insets topRightBottomLeft="0"/>
         </GridPane.margin>
         <Button fx:id="btn_1" GridPane.columnIndex="0" GridPane.rowIndex="0">1</Button>
         <Button fx:id="btn_2" GridPane.columnIndex="1" GridPane.rowIndex="0">2</Button>
         <Button fx:id="btn_3" GridPane.columnIndex="2" GridPane.rowIndex="0">3</Button>
+        <Button fx:id="btn_add" GridPane.columnIndex="3" GridPane.rowIndex="0">+</Button>
+        <Button fx:id="btn_sin" GridPane.columnIndex="4" GridPane.rowIndex="0">sin</Button>
 
         <Button fx:id="btn_4" GridPane.columnIndex="0" GridPane.rowIndex="1">4</Button>
         <Button fx:id="btn_5" GridPane.columnIndex="1" GridPane.rowIndex="1">5</Button>
         <Button fx:id="btn_6" GridPane.columnIndex="2" GridPane.rowIndex="1">6</Button>
+        <Button fx:id="btn_sub" GridPane.columnIndex="3" GridPane.rowIndex="1">-</Button>
+        <Button fx:id="btn_cos" GridPane.columnIndex="4" GridPane.rowIndex="1">cos</Button>
 
         <Button fx:id="btn_7" GridPane.columnIndex="0" GridPane.rowIndex="2">7</Button>
         <Button fx:id="btn_8" GridPane.columnIndex="1" GridPane.rowIndex="2">8</Button>
         <Button fx:id="btn_9" GridPane.columnIndex="2" GridPane.rowIndex="2">9</Button>
+        <Button fx:id="btn_multi" GridPane.columnIndex="3" GridPane.rowIndex="2">*</Button>
+        <Button fx:id="btn_procent" GridPane.columnIndex="4" GridPane.rowIndex="2">%</Button>
 
         <Button fx:id="btn_C" GridPane.columnIndex="0" GridPane.rowIndex="3">C</Button>
         <Button fx:id="btn_0" GridPane.columnIndex="1" GridPane.rowIndex="3">0</Button>
         <Button fx:id="btn_equals" GridPane.columnIndex="2" GridPane.rowIndex="3">=</Button>
-    </GridPane>
+        <Button fx:id="btn_devide" GridPane.columnIndex="3" GridPane.rowIndex="3">/</Button>
+        <Button fx:id="btn_root" GridPane.columnIndex="4" GridPane.rowIndex="3">√</Button>
 
+
+
+    </GridPane>
 </VBox>
