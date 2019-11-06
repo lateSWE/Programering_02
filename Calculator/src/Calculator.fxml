@@ -19,7 +19,6 @@
 
     <!--<HBox>>-->
         <TextField fx:id="text_field">
-            test
         </TextField>
     <!--</HBox>-->
 
@@ -27,28 +26,32 @@
         <GridPane.margin>
             <Insets topRightBottomLeft="0"/>
         </GridPane.margin>
-        <Button fx:id="btn_1" GridPane.columnIndex="0" GridPane.rowIndex="0" prefWidth="50" prefHeight="50">1</Button>
-        <Button fx:id="btn_2" GridPane.columnIndex="1" GridPane.rowIndex="0" prefWidth="50" prefHeight="50">2</Button>
-        <Button fx:id="btn_3" GridPane.columnIndex="2" GridPane.rowIndex="0" prefWidth="50" prefHeight="50">3</Button>
-        <Button fx:id="btn_add" GridPane.columnIndex="3" GridPane.rowIndex="0" prefWidth="50" prefHeight="50">+</Button>
-        <Button fx:id="btn_sin" GridPane.columnIndex="4" GridPane.rowIndex="0" prefWidth="50" prefHeight="50">sin</Button>
+        <Button onAction="#btn_1" GridPane.columnIndex="0" GridPane.rowIndex="0" prefWidth="50" prefHeight="50">1</Button>
+        <Button onAction="#btn_2" GridPane.columnIndex="1" GridPane.rowIndex="0" prefWidth="50" prefHeight="50">2</Button>
+        <Button onAction="#btn_3" GridPane.columnIndex="2" GridPane.rowIndex="0" prefWidth="50" prefHeight="50">3</Button>
+        <Button onAction="#btn_add" GridPane.columnIndex="3" GridPane.rowIndex="0" prefWidth="50" prefHeight="50" style="-fx-font-size: 20;">+</Button>
+        <Button onAction="#btn_sin" GridPane.columnIndex="4" GridPane.rowIndex="0" prefWidth="50" prefHeight="50">sin</Button>
+        <Button onAction="#btn_C" GridPane.columnIndex="5" GridPane.rowIndex="0" prefWidth="50" prefHeight="50">C</Button>
 
-        <Button fx:id="btn_4" GridPane.columnIndex="0" GridPane.rowIndex="1" prefWidth="50" prefHeight="50">4</Button>
-        <Button fx:id="btn_5" GridPane.columnIndex="1" GridPane.rowIndex="1" prefWidth="50" prefHeight="50">5</Button>
-        <Button fx:id="btn_6" GridPane.columnIndex="2" GridPane.rowIndex="1" prefWidth="50" prefHeight="50">6</Button>
-        <Button fx:id="btn_sub" GridPane.columnIndex="3" GridPane.rowIndex="1" prefWidth="50" prefHeight="50">-</Button>
-        <Button fx:id="btn_cos" GridPane.columnIndex="4" GridPane.rowIndex="1" prefWidth="50" prefHeight="50">cos</Button>
+        <Button onAction="#btn_4" GridPane.columnIndex="0" GridPane.rowIndex="1" prefWidth="50" prefHeight="50">4</Button>
+        <Button onAction="#btn_5" GridPane.columnIndex="1" GridPane.rowIndex="1" prefWidth="50" prefHeight="50">5</Button>
+        <Button onAction="#btn_6" GridPane.columnIndex="2" GridPane.rowIndex="1" prefWidth="50" prefHeight="50">6</Button>
+        <Button onAction="#btn_sub" GridPane.columnIndex="3" GridPane.rowIndex="1" prefWidth="50" prefHeight="50" style="-fx-font-size: 20;">-</Button>
+        <Button onAction="#btn_cos" GridPane.columnIndex="4" GridPane.rowIndex="1" prefWidth="50" prefHeight="50">cos</Button>
+        <Button onAction="#btn_tan" GridPane.columnIndex="5" GridPane.rowIndex="1" prefWidth="50" prefHeight="50">tan</Button>
 
-        <Button fx:id="btn_7" GridPane.columnIndex="0" GridPane.rowIndex="2" prefWidth="50" prefHeight="50">7</Button>
-        <Button fx:id="btn_8" GridPane.columnIndex="1" GridPane.rowIndex="2" prefWidth="50" prefHeight="50">8</Button>
-        <Button fx:id="btn_9" GridPane.columnIndex="2" GridPane.rowIndex="2" prefWidth="50" prefHeight="50">9</Button>
-        <Button fx:id="btn_multi" GridPane.columnIndex="3" GridPane.rowIndex="2" prefWidth="50" prefHeight="50">*</Button>
-        <Button fx:id="btn_percent" GridPane.columnIndex="4" GridPane.rowIndex="2" prefWidth="50" prefHeight="50">%</Button>
+        <Button onAction="#btn_7" GridPane.columnIndex="0" GridPane.rowIndex="2" prefWidth="50" prefHeight="50">7</Button>
+        <Button onAction="#btn_8" GridPane.columnIndex="1" GridPane.rowIndex="2" prefWidth="50" prefHeight="50">8</Button>
+        <Button onAction="#btn_9" GridPane.columnIndex="2" GridPane.rowIndex="2" prefWidth="50" prefHeight="50">9</Button>
+        <Button onAction="#btn_multi" GridPane.columnIndex="3" GridPane.rowIndex="2" prefWidth="50" prefHeight="50" style="-fx-font-size: 20;">*</Button>
+        <Button onAction="#btn_percent" GridPane.columnIndex="4" GridPane.rowIndex="2" prefWidth="50" prefHeight="50">%</Button>
+        <Button onAction="#btn_par1" GridPane.columnIndex="5" GridPane.rowIndex="2" prefWidth="50" prefHeight="50">(</Button>
 
-        <Button fx:id="btn_C" GridPane.columnIndex="0" GridPane.rowIndex="3" prefWidth="50" prefHeight="50">C</Button>
-        <Button fx:id="btn_0" GridPane.columnIndex="1" GridPane.rowIndex="3" prefWidth="50" prefHeight="50">0</Button>
-        <Button fx:id="btn_equals" GridPane.columnIndex="2" GridPane.rowIndex="3" prefWidth="50" prefHeight="50">=</Button>
-        <Button fx:id="btn_divide" GridPane.columnIndex="3" GridPane.rowIndex="3" prefWidth="50" prefHeight="50">/</Button>
-        <Button fx:id="btn_root" GridPane.columnIndex="4" GridPane.rowIndex="3" prefWidth="50" prefHeight="50">√</Button>
+        <Button onAction="#btn_comma" GridPane.columnIndex="0" GridPane.rowIndex="3" prefWidth="50" prefHeight="50" style="-fx-font-size: 20;">,</Button>
+        <Button onAction="#btn_0" GridPane.columnIndex="1" GridPane.rowIndex="3" prefWidth="50" prefHeight="50">0</Button>
+        <Button onAction="#btn_equals" GridPane.columnIndex="2" GridPane.rowIndex="3" prefWidth="50" prefHeight="50">=</Button>
+        <Button onAction="#btn_divide" GridPane.columnIndex="3" GridPane.rowIndex="3" prefWidth="50" prefHeight="50">/</Button>
+        <Button onAction="#btn_root" GridPane.columnIndex="4" GridPane.rowIndex="3" prefWidth="50" prefHeight="50">√</Button>
+        <Button onAction="#btn_par2" GridPane.columnIndex="5" GridPane.rowIndex="3" prefWidth="50" prefHeight="50">)</Button>
     </GridPane>
 </VBox>
