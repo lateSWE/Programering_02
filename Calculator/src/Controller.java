@@ -156,7 +156,6 @@ public class Controller {
     private String format(String in){
 
         in = parentheses(in);
-        in = AutoTimes(in);
 
         in = in.replaceAll("sqrt", "Math.sqrt ");
         in = in.replaceAll("sin", "Math.sin ");
@@ -182,58 +181,5 @@ public class Controller {
             }
         }
         return out;
-    }
-
-    private String AutoTimes(String in){
-        int inLength = in.length();
-        System.out.println("in Length is: " + inLength);
-        String[] list = {"sqrt(", "sin(", "cos(", "tan("};
-        StringBuilder temp = new StringBuilder(in);
-
-
-        for (int i = 0; i < inLength; i++) {
-            //System.out.println("i is: " + i);
-            for (int j = 0; j < list.length; j++) {
-                //System.out.println("j is " + j);
-                for (int k = 0; k < list[j].length(); k++) {
-                    //System.out.println("k is " + k);
-                    if (in.charAt(i) == list[j].charAt(k)){
-                        if (in.charAt(i+1) == list[j].charAt(k+1)){
-                            if (in.charAt(i+2) == list[j].charAt(k+2)){
-                                if (in.charAt(i+3) == list[j].charAt(k+3)){
-                                    in = temp.insert(i, '*').toString();
-                                    System.out.println("inserted \"*\" at " + i + ", " + j + ", " + k);
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        }
-
-
-
-        /*
-        for (int i = 0; i < list.length; i++) {
-            for (int j = 0; j < in.length(); j++) {
-                if (in.charAt(i) == list[i].charAt(i)) {
-                    if (in.charAt(i) == list[i].charAt(i+1)) {
-                        if (in.charAt(i) == list[i].charAt(i+2)) {
-                            if (in.charAt(i) == list[i].charAt(i+3)) {
-                                if (in.charAt(i) == list[i].charAt(i+4)) {
-                                    in = temp.insert(j, '*').toString();
-                                    System.out.println("Added \"*\" at " + i);
-                                    System.out.println("New String is: \"" + in + "\"");
-
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        }
-        */
-
-        return in;
     }
 }
