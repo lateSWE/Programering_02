@@ -1,2 +1,3 @@
-public class Buttons {
+public abstract class Buttons {
+    abstract void test();
 }

@@ -2,10 +2,6 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.TextField;
 
-import javax.script.ScriptEngine;
-import javax.script.ScriptEngineManager;
-import javax.script.ScriptException;
-
 public class Controller {
 
     @FXML
@@ -121,16 +117,8 @@ public class Controller {
     @FXML
     private void btn_equals(ActionEvent event){
         System.out.println("Button: \"btn_equals\" was pressed");
-        ScriptEngineManager mgr = new ScriptEngineManager();
-        ScriptEngine engine = mgr.getEngineByName("JavaScript");
-        String calc = format(text_field.getText());
-        try {
-            text_field.setText(engine.eval(calc).toString());
-            System.out.println(calc);
-            System.out.println("Equals: " + engine.eval(calc).toString());
-        } catch (ScriptException e) {
-            e.printStackTrace();
-        }
+
+        text_field.setText(Functions.calc(text_field.getText()));
     }
     @FXML
     private void btn_divide(ActionEvent event){
@@ -146,40 +134,5 @@ public class Controller {
     private void btn_par2(ActionEvent event){
         System.out.println("Button: \"btn_sin\" was pressed");
         text_field.setText(text_field.getText() + ")");
-    }
-
-
-
-
-
-
-    private String format(String in){
-
-        in = parentheses(in);
-
-        in = in.replaceAll("sqrt", "Math.sqrt ");
-        in = in.replaceAll("sin", "Math.sin ");
-        in = in.replaceAll("cos", "Math.cos ");
-        in = in.replaceAll("tan", "Math.tan ");
-
-        return in;
-    }
-
-    private String parentheses(String in){
-        while (AmountOfCharInString(in, '(') > AmountOfCharInString(in, ')')){
-            in = in.concat(")");
-            System.out.println("Added a \")\"");
-        }
-        return in;
-    }
-
-    private int AmountOfCharInString(String in, char CharIn){
-        int out=0;
-        for (int i = 0; i < in.length(); i++) {
-            if (in.charAt(i) == CharIn){
-                out++;
-            }
-        }
-        return out;
     }
 }
