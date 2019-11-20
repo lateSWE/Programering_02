@@ -1,3 +1,5 @@
+import javafx.beans.value.ChangeListener;
+import javafx.beans.value.ObservableValue;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.TextField;
@@ -7,6 +9,14 @@ public class Controller {
     @FXML
     private TextField text_field;
 
+    @FXML
+    public void initialize() {
+        text_field.textProperty().addListener((observable, oldValue, newValue) -> {
+            if (!newValue.matches("\\d*|\\+*|\\-*|\\**|\\/|\\%|\\(|\\)")) {
+                text_field.setText(newValue.replaceAll("[^(\\d*|\\+*|\\-*|\\**|\\/|\\%|\\(|\\))]", ""));
+            }
+        });
+    }
 
     @FXML
     private void btn_1(ActionEvent event){

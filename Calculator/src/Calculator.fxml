@@ -13,7 +13,7 @@
 
 
     <!--<HBox>>-->
-        <TextField fx:id="text_field" editable="false">
+        <TextField fx:id="text_field">
         </TextField>
     <!--</HBox>-->
 
