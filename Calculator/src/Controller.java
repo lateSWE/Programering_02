@@ -1,5 +1,3 @@
-import javafx.beans.value.ChangeListener;
-import javafx.beans.value.ObservableValue;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.TextField;
@@ -9,11 +7,13 @@ public class Controller {
     @FXML
     private TextField text_field;
 
+    //this is used to limit the types of characters that can be entered into the text field
+    //if a character that is not in the list gets inputted it removes all characters that
     @FXML
     public void initialize() {
         text_field.textProperty().addListener((observable, oldValue, newValue) -> {
-            if (!newValue.matches("\\d*|\\+*|\\-*|\\**|\\/|\\%|\\(|\\)")) {
-                text_field.setText(newValue.replaceAll("[^(\\d*|\\+*|\\-*|\\**|\\/|\\%|\\(|\\))]", ""));
+            if (!newValue.matches("\\d*|\\+*|\\-*|\\**|\\/|\\%|\\(|\\)|s|q|r|t|i|n|a|c|o|\\.")) {
+                text_field.setText(newValue.replaceAll("[^(\\d*|\\+*|\\-*|\\**|\\/|\\%|\\(|\\)|s|q|r|t|i|n|a|c|o|\\.)]", ""));
             }
         });
     }
