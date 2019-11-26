@@ -1,5 +1,7 @@
-public class Main extends Car{
-    public void main(String[] args){
-
+public class Main{
+    public static void main(String[] args) {
+        Volvo myVolvo = new Volvo(); // Create a Pig object
+        myVolvo.CarSound();
+        myVolvo.sleep();
     }
 }
