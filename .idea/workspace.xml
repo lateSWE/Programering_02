@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0f459a1d-5984-4b87-8f77-c57d15339dae" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Lab 2/Lab 2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab 1/src/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab 1/src/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab 1/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab 1/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab 1/src/Volvo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab 1/src/Volvo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab 1/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab 1/Car.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab 1/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab 1/Main.class" afterDir="false" />
-    </list>
+    <list default="true" id="0f459a1d-5984-4b87-8f77-c57d15339dae" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,6 +114,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -146,7 +137,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -232,7 +222,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3054371" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30863538" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
