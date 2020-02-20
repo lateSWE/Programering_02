@@ -1,0 +1,26 @@
+{
+  "name": "Programering_02",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./wesweb/maxi/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lateSWE/Programering_02.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lateSWE/Programering_02/issues"
+  },
+  "homepage": "https://github.com/lateSWE/Programering_02#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

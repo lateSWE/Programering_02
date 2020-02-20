@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0f459a1d-5984-4b87-8f77-c57d15339dae" name="Default Changelist" comment="" />
+    <list default="true" id="0f459a1d-5984-4b87-8f77-c57d15339dae" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/wesweb/firstprogram.js" beforeDir="false" afterPath="$PROJECT_DIR$/wesweb/firstprogram.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +115,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -127,16 +128,11 @@
               <item name="Programering_02" type="462c0819:PsiDirectoryNode" />
               <item name="Lab 1" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Programering_02" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Programering_02" type="462c0819:PsiDirectoryNode" />
-              <item name="Lab 1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -222,7 +218,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30863538" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31183368" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -335,12 +331,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Calculator/src/Calculator.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
         </state>
       </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Lab 1/src/test.java" />
     <entry file="file://$PROJECT_DIR$/Lab 1/src/Pig.java" />
