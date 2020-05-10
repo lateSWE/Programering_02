@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f459a1d-5984-4b87-8f77-c57d15339dae" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Tetris/.idea/dictionaries/Jakob.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tetris/src/GameFunctions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tetris/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Tetris/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tetris/out/production/Tetris/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/Tetris/out/production/Tetris/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tetris/out/production/Tetris/Start.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/Tetris/out/production/Tetris/Start.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tetris/out/production/Tetris/StartController.class" beforeDir="false" afterPath="$PROJECT_DIR$/Tetris/out/production/Tetris/StartController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tetris/src/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tetris/src/GameController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tetris/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tetris/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tetris/src/Start.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/Tetris/src/Start.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tetris/out/production/Tetris/GameFunctions.class" beforeDir="false" afterPath="$PROJECT_DIR$/Tetris/out/production/Tetris/GameFunctions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tetris/src/GameFunctions.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tetris/src/GameFunctions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tetris/src/StartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tetris/src/StartController.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,12 +23,12 @@
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Calculator/src/Calculator.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder" />
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="374">
               <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
             </state>
           </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -136,6 +129,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -169,8 +164,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -253,7 +246,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49919224" visible="true" weight="0.34434968" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49919224" visible="true" weight="0.34808102" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -445,12 +438,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Tetris/src/Game.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Tetris/src/GameController.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -460,8 +453,8 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Tetris/src/Over.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Tetris/src/OverController.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -472,12 +465,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Tetris/src/Tetris.java" />
     <entry file="file://$PROJECT_DIR$/Tetris/src/Start.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
         </state>
       </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Calculator/src/Functions.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -511,12 +504,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Calculator/src/Calculator.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
         </state>
       </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Calculator/src/Controller.java">
       <provider selected="true" editor-type-id="text-editor">

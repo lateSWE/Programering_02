@@ -12,16 +12,25 @@ public class GameFunctions{
                 tempRectangle.setStroke(BorderColor);
 
 
-
-                tempGridPane.setId(i + "," + j);
+                tempRectangle.setId(j + "," + i);
 
 
                 tempGridPane.add(tempRectangle, j, i);
+
+                System.out.print("[");
+                System.out.print(j + "  " + i);
+                System.out.print("][");
+                System.out.print(tempRectangle.getId());
+                System.out.println("]");
             }
         }
 
         System.out.println(tempGridPane);
 
+        System.out.println(tempGridPane.getColumnConstraints());
+        System.out.println(tempGridPane.getRowConstraints());
+
+        System.out.println();
 
         return tempGridPane;
     }

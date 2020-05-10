@@ -16,7 +16,7 @@ import java.util.List;
 
 public class StartController {
 
-    public   ArrayList[][] t;
+    public   ArrayList[] test;
 
     @FXML
     private GridPane Game_GridPane;
@@ -26,9 +26,6 @@ public class StartController {
 
     @FXML
     private Pane NextBlock_Pane;
-
-    @FXML
-    private Rectangle test;
 
     @FXML
     private void btn_MainMenu(ActionEvent event){
