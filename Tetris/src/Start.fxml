@@ -3,9 +3,48 @@
 
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
-<GridPane fx:controller="StartController"
-          xmlns:fx="http://javafx.com/fxml"
-          alignment="center"
-          prefHeight="600" prefWidth="400">
-    
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.Pane?>
+
+
+<?import javafx.scene.shape.Box?>
+<?import javafx.scene.shape.Rectangle?>
+<GridPane
+        fx:controller="StartController"
+        xmlns:fx="http://javafx.com/fxml"
+        alignment="CENTER"
+        prefHeight="800" prefWidth="700"
+
+        hgap="50"
+        vgap="50"
+>
+
+    <!-- Game outer -->
+    <GridPane GridPane.columnIndex="1" GridPane.rowIndex="1" alignment="CENTER_LEFT">
+        <Label GridPane.columnIndex="1" GridPane.rowIndex="1" alignment="CENTER" style="-fx-font-size:80;">Tetris</Label>
+        <GridPane GridPane.columnIndex="1" GridPane.rowIndex="2" alignment="BOTTOM_CENTER" fx:id="Game_GridPane">
+
+        </GridPane>
+    </GridPane>
+
+    <!-- Side box -->
+    <GridPane GridPane.columnIndex="2" GridPane.rowIndex="1" alignment="CENTER_RIGHT">
+
+        <!-- Score box -->
+        <VBox>
+
+        </VBox>
+
+        <!-- Next block box -->
+        <Pane fx:id="NextBlock_Pane">
+
+        </Pane>
+
+        <!-- Button box -->
+        <VBox spacing="20">
+            <Button onAction="#btn_MainMenu" prefWidth="80" prefHeight="20" style="-fx-margin: 20;">Main Menu</Button>
+            <Button onAction="#btn_QuitGame" prefWidth="80" prefHeight="20">Quit Game</Button>
+        </VBox>
+    </GridPane>
 </GridPane>
